@@ -1,0 +1,7 @@
+{
+    "template": "<div oc-lazy-load=\"['/static/myapps/time.js']\">\n<div ng-controller='myTime as timeCtrl'>\n  <div style=\"font-size: 33px;\">{{ timeCtrl.clock.time | date: 'HH:mm' }}</div>\n</div>\n<div ng-controller='myTime as timeCtrl'>\n  {{ timeCtrl.clock.time | date: 'EEEE, d. MMMM' }}\n</div>\n",
+    "name": "Time & Date",
+    "author": "mues-lee",
+    "description": "show time and date",
+    "settings": []
+}
